@@ -6,8 +6,8 @@ This is a simple code to demonstrate how double is stored in computer Memory.</b
 Demo output:
 使用例子:
 
-[root@localhost ~]# gcc print.c  -lm
-[root@localhost ~]# ./a.out
+[root@localhost ~]# gcc print.c  -lm</br>
+[root@localhost ~]# ./a.out</br>
 
 Please enter a double number: 7464.1648</br>
 
@@ -38,4 +38,4 @@ Decimal Fraction: 1.822306</br>
 Raw Double in Decimal Calculation: 7464.164800=1.822306*2^12</br>
 
 Double Check Answer: 7464.164800</br>
-[root@localhost ~]#
+[root@localhost ~]#</br>
