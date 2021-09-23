@@ -33,7 +33,7 @@ Sign: Positive</br>
 Exponent: 12</br>
 Binary Fraction: 1101001010000010101000110000010101010011001001100001</br>
 Decimal Fraction: 1.822306</br>
-Raw Double in Decimal Calculation: 7464.164800=1*1.822306*2^12</br>
+
 
 Double Check Answer: 7464.164800</br>
 [root@localhost ~]#</br>
