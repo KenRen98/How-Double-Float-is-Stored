@@ -11,7 +11,7 @@ void print_double_Dec(double d)
  sign = (unsigned int)(*doubleINint >> 63);
  exponent = (unsigned int)(*doubleINint >> 52 & 0x7FF);
  fraction = *doubleINint & 0x000FFFFFFFFFFFFFULL;
- printf("\n\nDouble: %lf\nRawDouble: %X\n\nDec Form:\n*****************\nSign: %d\nExponent: %d\nFraction: %lld\n",d,doubleINint,sign,exponent,fraction);
+ printf("\n\nDouble: %lf\nRawDouble: %llX\n\nDec Form:\n*****************\nSign: %d\nExponent: %d\nFraction: %lld\n",d,*doubleINint,sign,exponent,fraction);
  printf("\n\nHex Form:\n*****************\nSign: %d\nExponent: %X\nFraction: %llX\n",sign,exponent,fraction);
 
  char frac[53];
@@ -51,7 +51,7 @@ void print_double_Dec(double d)
  }
  sum=sum+1;
  printf("\nDecimal Fraction: %lf",sum);
- printf("\nRaw Double in Decimal Calculation: %lf=%lf*2^%d", d, sum, exponent);
+ printf("\nRaw Double in Decimal Calculation: %lf=%d*%lf*2^%d", d, sign, sum, exponent);
  printf("\n\nDouble Check Answer: %lf\n",sign*sum*pow(2.0,exponent));
 }
 
