@@ -3,7 +3,7 @@
 This is a simple code to demonstrate how double is stored in computer Memory.</br>
 展示双精度和单精度浮点数在计算机内存中存储方式的简单代码
 
-Demo output(使用例子):</br>
+Example Output(使用例子):</br>
 
 [root@localhost ~]# gcc ShowDoubleConversion.c  -lm</br>
 [root@localhost ~]# ./a.out</br>
