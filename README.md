@@ -9,33 +9,33 @@ Demo output:
 [root@localhost ~]# gcc print.c  -lm
 [root@localhost ~]# ./a.out
 
-Please enter a double number: 7464.1648
+Please enter a double number: 7464.1648</br>
 
 
-Double: 7464.164800
-RawDouble: 5D83AB38
+Double: 7464.164800</br>
+RawDouble: 5D83AB38</br>
 
-Dec Form:
-*****************
-Sign: 0
-Exponent: 1035
-Fraction: 3703336361865825
-
-
-Hex Form:
-*****************
-Sign: 0
-Exponent: 40B
-Fraction: D282A30553261
+Dec Form:</br>
+*****************</br>
+Sign: 0</br>
+Exponent: 1035</br>
+Fraction: 3703336361865825</br>
 
 
-Conversion:
-*****************
-Sign: Positive
-Exponent: 12
-Binary Fraction: 1101001010000010101000110000010101010011001001100001
-Decimal Fraction: 1.822306
-Raw Double in Decimal Calculation: 7464.164800=1.822306*2^12
+Hex Form:</br>
+*****************</br>
+Sign: 0</br>
+Exponent: 40B</br>
+Fraction: D282A30553261</br>
 
-Double Check Answer: 7464.164800
+
+Conversion:</br>
+*****************</br>
+Sign: Positive</br>
+Exponent: 12</br>
+Binary Fraction: 1101001010000010101000110000010101010011001001100001</br>
+Decimal Fraction: 1.822306</br>
+Raw Double in Decimal Calculation: 7464.164800=1.822306*2^12</br>
+
+Double Check Answer: 7464.164800</br>
 [root@localhost ~]#
