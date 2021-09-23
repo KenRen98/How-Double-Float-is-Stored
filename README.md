@@ -12,7 +12,7 @@ Please enter a double number: 7464.1648</br>
 
 
 Double: 7464.164800</br>
-RawDouble: 5D83AB38</br>
+RawDouble: 40BD282A30553261</br>
 
 Dec Form:</br>
 *****************</br>
