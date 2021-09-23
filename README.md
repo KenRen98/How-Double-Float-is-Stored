@@ -3,6 +3,9 @@
 This is a simple code to demonstrate how double is stored in computer Memory.</br>
 展示双精度和单精度浮点数在计算机内存中存储方式的简单代码
 
+To Understand the concept, please read details in the link below
+理解概念请参考:https://www.trimble.com/OEM_ReceiverHelp/V4.44/en/FloatingPointDataTypes.html
+
 Example Output(使用例子):</br>
 
 [root@localhost ~]# gcc ShowDoubleConversion.c  -lm</br>
