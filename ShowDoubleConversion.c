@@ -5,7 +5,7 @@ void print_double_Dec(double d)
 {
 
  unsigned long long *doubleINint = (unsigned long long *)&d;
- unsigned int sign;
+ int sign;
  unsigned int exponent;
  unsigned long long fraction;
  sign = (unsigned int)(*doubleINint >> 63);
