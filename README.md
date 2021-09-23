@@ -10,7 +10,6 @@ Demo output(使用例子):</br>
 
 Please enter a double number: 7464.1648</br>
 
-
 Double: 7464.164800</br>
 RawDouble: 40BD282A30553261</br>
 
