@@ -5,14 +5,14 @@ void print_double_Dec(double d)
 {
 
  unsigned long long *doubleINint = (unsigned long long *)&d;
- unsigned char sign;
- unsigned short exponent;
+ unsigned int sign;
+ unsigned int exponent;
  unsigned long long fraction;
- sign = (unsigned char)(*doubleINint >> 63);
- exponent = (unsigned short)(*doubleINint >> 52 & 0x7FF);
+ sign = (unsigned int)(*doubleINint >> 63);
+ exponent = (unsigned int)(*doubleINint >> 52 & 0x7FF);
  fraction = *doubleINint & 0x000FFFFFFFFFFFFFULL;
-
- printf("\nDouble: %lf\n\nSign: %d\nExponent: %d\nFraction: %lld\n",d,sign,exponent,fraction);
+ printf("\n\nDouble: %lf\nRawDouble: %X\n\nDec Form:\n*****************\nSign: %d\nExponent: %d\nFraction: %lld\n",d,doubleINint,sign,exponent,fraction);
+ printf("\n\nHex Form:\n*****************\nSign: %d\nExponent: %X\nFraction: %llX\n",sign,exponent,fraction);
 
  char frac[53];
  frac[52]=0;
@@ -28,12 +28,12 @@ void print_double_Dec(double d)
  }
  if (sign == 0)
  {
-     printf("\nSign: Positive");
+     printf("\n\nConversion:\n*****************\nSign: Positive");
      sign=1;
  }
  else
  {
-     printf("\nSign: Negative");
+     printf("\n\nConversion:\n*****************\nSign: Negative");
      sign=-1;
  }
  exponent = exponent - 1023;
@@ -59,7 +59,6 @@ int main(void){
 double db;
 printf("\nPlease enter a double number: ");
 scanf("%lf", &db);
-printf("\nYou entered: %lf\n", db);
 print_double_Dec(db);
 return 0;
 }
