@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
+//Author: Ken Ren
+//Version: 1.0.1
+
 void print_double_Dec(double d)
 {
 
