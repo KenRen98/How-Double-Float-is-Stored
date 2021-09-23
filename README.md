@@ -5,7 +5,7 @@ This is a simple code to demonstrate how double is stored in computer Memory.</b
 
 Demo output(使用例子):</br>
 
-[root@localhost ~]# gcc print.c  -lm</br>
+[root@localhost ~]# gcc ShowDoubleConversion.c  -lm</br>
 [root@localhost ~]# ./a.out</br>
 
 Please enter a double number: 7464.1648</br>
